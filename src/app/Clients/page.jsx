@@ -2,17 +2,16 @@ import React from 'react'
 import About from "../About/page"
 import Image from "next/image";
 
-import Client1 from "../../assets/clients/client-1.png";
-import Client2 from "../../assets/clients/client-2.png";
-import Client3 from "../../assets/clients/client-3.png";
-import Client4 from "../../assets/clients/client-4.png";
-import Client5 from "../../assets/clients/client-5.png";
+import Client1 from "../../assets/clients/image-removebg-preview.png";
+import Client2 from "../../assets/clients/image-2-removebg-preview.png";
+import Client3 from "../../assets/clients/image-3-removebg-preview.png";
+import Client4 from "../../assets/clients/image-4-removebg-preview.png";
+import Client5 from "../../assets/clients/image-5-removebg-preview.png";
 import Client6 from "../../assets/clients/client-6.png";
 import ImgTruck from "../../assets/all-truck.jpg"
-import Team from "../Team/page"
-import Cta from "../Cta/page" 
+ 
 
-     import Pricing from "../Pricing/page"
+    
     
 
 
@@ -75,9 +74,9 @@ function page() {
 </div>
 
 </div>
-    <Team/>
-<Cta/>
-<Pricing/>
+   
+
+
     </div>
 
   )
