@@ -1,7 +1,7 @@
 import React from "react";
 import Headers from "../Headers/page";
 import Footer from "../Footer/page";
-import Client1 from "../../assets/img/repair-1.jpg";
+import Client1 from "../../assets/repair-1.jpg";
 import Image from "next/image";
 function page() {
   return (

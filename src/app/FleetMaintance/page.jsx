@@ -2,7 +2,7 @@ import React from "react";
 import Headers from "../Headers/page";
 import Footer from "../Footer/page";
 import Image from "next/image";
-import Client1 from "../../assets/img/mainentace.jpeg";
+import Client1 from "../../assets/mainentace.jpeg";
 function page() {
   return (
     <>

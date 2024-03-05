@@ -1,7 +1,7 @@
 import React from 'react'
 import Headers from "../Headers/page"
 import Footer from "../Footer/page"
-import Client1 from "../../assets/img/cost-red.jpeg"
+import Client1 from "../../assets/cost-red.jpeg"
 import Image from "next/image"
 function page() {
   return (
