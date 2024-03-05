@@ -31,11 +31,9 @@ function page() {
               data-aos="fade-up"
               data-aos-delay="200"
             >
-              <h1 >Better Solutions For Your Business</h1>
-              <h2 >
-                We are team of talented designers making websites 
-              </h2>
-              <div className="d-flex  ">
+              <h1 >Keep your fleet on the road with our top notch maintenance services reliability you can trust.</h1>
+            
+              {/* <div className="d-flex  ">
                 <Link href="/" className="btn-get-started scrollto text-decoration-none">
                   Get Started
                 </Link>
@@ -46,7 +44,7 @@ function page() {
                 <SiYoutubemusic   className=" main-watch" />
                   <span >Watch Video</span>
                 </Link>
-              </div>
+              </div> */}
             </div>
             <div
               className="col-lg-6 order-1 order-lg-2 hero-img mt-4"

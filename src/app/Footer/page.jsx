@@ -13,7 +13,7 @@ function page() {
     <div className="row justify-content-center">
       <div className="col-lg-6">
         <h4>Join Our Newsletter</h4>
-        <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
+        <p>Subscribe now for exclusive tips and updates on top-notch truck maintenance from our experts!</p>
         <form action="" >
           <input type="email" name="email"/>
             <input type="submit" value="Subscribe"/>
@@ -62,7 +62,7 @@ function page() {
 
       <div className="col-lg-3 col-md-6 footer-links">
         <h4>Our Social Networks</h4>
-        <p>Cras fermentum odio eu feugiat lide par naso tierra videa magna derita valies</p>
+        <p className='text-justify'>Join our exclusive social network for the latest in fleet maintenance strategies</p>
         <div className="social-links mt-3">
           <a href="#" className="twitter"><FaTwitter className="bx bxl-twitter"/></a>
           <a href="#" className="facebook"><FaFacebookSquare className="bx bxl-facebook"/></a>
