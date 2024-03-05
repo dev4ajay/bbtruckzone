@@ -7,13 +7,13 @@ import Headers from "../Headers/page"
 function page() {
   return (
     <div>
-     <section id="contact" className="contact mt-4 mb-2">
+     <section id="contact" className="contact mt-4 ">
      <Headers/>
       <div className="container" data-aos="fade-up">
 
         <div className="section-title">
           <h2>Contact</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+          <p> Welcome to BB Truck Zone, your trusted partner in comprehensive truck and trailer maintenance services. At BB Truck Zone, we specialize in ensuring the reliability and optimal performance of your heavy-duty vehicles. From routine maintenance to intricate repairs, our dedicated team of skilled technicians is committed to keeping your trucks and trailers in peak condition..</p>
         </div>
 
         <div className="row">
