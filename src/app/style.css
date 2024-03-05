@@ -572,7 +572,7 @@ background:white !important;
   }
 
   #hero .hero-img img {
-    width: 50%;
+    width: 100%;
   }
 }
 
@@ -589,13 +589,13 @@ background:white !important;
   }
 
   #hero .hero-img img {
-    width: 70%;
+    width: 95%;
   }
 }
 
 @media (max-width: 575px) {
   #hero .hero-img img {
-    width: 80%;
+    width: 95%;
   } 
 
   #hero .btn-get-started {
