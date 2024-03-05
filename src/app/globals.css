@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "~bootstrap/dist/css/bootstrap.min.css";
+
+a{
+  text-decoration: none;
+}
+.logo-name{
+  font-size:30px !important;
+}
+
+
+.bg-img-side{
+
+ animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+.animation-img{
+  animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+.progress-bar {
+  width: 0%;
+  height: 100%;
+  background-color: #007bff;
+  animation: progressAnimation 5s ease-out forwards; /* Increase the duration to 5s */
+}
+
+@keyframes progressAnimation {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 100%;
+  }
+}
