@@ -6,9 +6,9 @@ import Footer from "../Footer/page";
 function About() {
   return  <div>
 
-    <section id="about" className="about mt-4 ">
+    <section id="about" className="about ">
 <Headers/>
-      <div className="container" data-aos="fade-up">
+      <div className="container mt-5 " data-aos="fade-up">
 
         <div className="section-title">
           <h2>About Us</h2>

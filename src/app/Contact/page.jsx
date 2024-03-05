@@ -7,9 +7,9 @@ import Headers from "../Headers/page"
 function page() {
   return (
     <div>
-     <section id="contact" className="contact mt-4 ">
+     <section id="contact" className="contact  ">
      <Headers/>
-      <div className="container" data-aos="fade-up">
+      <div className="container mt-5" data-aos="fade-up">
 
         <div className="section-title">
           <h2>Contact</h2>
