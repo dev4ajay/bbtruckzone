@@ -3,7 +3,7 @@ import React from "react";
 import Image from "next/image";
 import Container from 'react-bootstrap/Container';
 import Form from 'react-bootstrap/Form';
-import LogoImg from "../../assets/Untitled-removebg-preview.png" ;
+import LogoImg from "../../assets/Group-logo.png" ;
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
@@ -27,8 +27,7 @@ function page() {
             navbarScroll
           >
             <Nav.Link href="/#"  >Home</Nav.Link>
-            <Nav.Link href="/About"  >About</Nav.Link>
-        
+            <Nav.Link href="/About"  >About</Nav.Link>        
             <Dropdown>
   <Dropdown.Toggle  id="dropdown-services" classname="services-dark text-dark px-4 py-5">
     Services
