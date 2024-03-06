@@ -1,14 +1,13 @@
 import React from 'react'
 import About from "../About/page"
 import Image from "next/image";
-
 import Client1 from "../../assets/clients/image-removebg-preview.png";
 import Client2 from "../../assets/clients/image-2-removebg-preview.png";
 import Client3 from "../../assets/clients/image-3-removebg-preview.png";
 import Client4 from "../../assets/clients/image-4-removebg-preview.png";
 import Client5 from "../../assets/clients/image-5-removebg-preview.png";
-import Client6 from "../../assets/clients/client-6.png";
-import ImgTruck from "../../assets/all-truck.jpg"
+import Client6 from "../../assets/clients/testiy-removebg-preview.png";
+import ImgTruck from "../../assets/all-truck.jpg";
  
 
     
