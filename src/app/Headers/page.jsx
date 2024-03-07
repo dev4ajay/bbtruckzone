@@ -3,7 +3,7 @@ import React from "react";
 import Image from "next/image";
 import Container from 'react-bootstrap/Container';
 import Form from 'react-bootstrap/Form';
-import LogoImg from "../../assets/Group-logo.png" ;
+import LogoImg from "../../assets/Group.png" ;
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
