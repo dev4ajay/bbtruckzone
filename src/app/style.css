@@ -471,8 +471,8 @@ height:90vh;
   font-weight: 700;
   line-height: 56px;
   color: #fff;
-  width: 88%;
-  text-align:justify;
+  /* width: 88%; */
+  /* text-align:justify; */
 }
 
 #hero h2 {
