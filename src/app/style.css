@@ -466,7 +466,7 @@ height:90vh;
 }
 
 #hero h1 {
-  margin: 0 0 10px 0;
+ 
   font-size: 48px;
   font-weight: 700;
   line-height: 56px;
@@ -1572,7 +1572,7 @@ height: 8vh;
 
 #footer .footer-newsletter {
   padding: 50px 0;
-  background: #f3f5fa;
+  background: #353839;
   text-align: center;
   font-size: 15px;
   color: #444444;

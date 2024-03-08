@@ -8,16 +8,14 @@ function page() {
   return (
     <div>
       <footer id="footer">
-<div className="footer-newsletter">
+<div className="mt-3 text-white footer-newsletter ">
   <div className="container">
     <div className="row justify-content-center">
-      <div className="col-lg-6">
-        <h4>Join Our Newsletter</h4>
-        <p>Subscribe now for exclusive tips and updates on top-notch truck maintenance from our experts!</p>
-        <form action="" >
-          <input type="email" name="email"/>
-            <input type="submit" value="Subscribe"/>
-        </form>
+      <div className=" col-lg-6">
+        <h3 className="font-bold fs-3">GET IN TOUCH</h3>
+        <p className="mt-3 font-bold get-join">
+        WE WOULD LOVE TO HEAR FROM YOU MOREOVER, WE ARE HERE TO HELP OUR CUSTOMERS AND KEEP YOU ON THE ROAD!</p>
+      
       </div>
     </div>
   </div>
@@ -63,7 +61,7 @@ function page() {
       <div className="col-lg-3 col-md-6 footer-links">
         <h4>Our Social Networks</h4>
         <p className='text-justify'>Join our exclusive social network for the latest in fleet maintenance strategies</p>
-        <div className="social-links mt-3">
+        <div className="mt-3 social-links">
           <a href="#" className="twitter"><FaTwitter className="bx bxl-twitter"/></a>
           <a href="#" className="facebook"><FaFacebookSquare className="bx bxl-facebook"/></a>
           <a href="#" className="instagram"><FaInstagram className="bx bxl-instagram"/></a>
@@ -76,7 +74,7 @@ function page() {
   </div>
 </div>
 
-<div className="container footer-bottom clearfix">
+<div className="container clearfix footer-bottom">
   <div className="copyright">
     &copy; Copyright <strong><span>BB TRUCK ZONE</span></strong>. All Rights Reserved
   </div>

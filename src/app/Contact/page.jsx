@@ -7,7 +7,7 @@ import Headers from "../Headers/page"
 function page() {
   return (
     <div>
-     <section id="contact" className="contact  ">
+     <section id="contact" className="contact ">
      <Headers/>
       <div className="container mt-5" data-aos="fade-up">
 
@@ -41,13 +41,13 @@ function page() {
                 <h4><IoIosPhonePortrait className="bi bi-envelope"/>Call:</h4>
                 <p>+1(437)981-0767</p>
               </div>
-              {/* <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28021.515400944896!2d77.21230520671162!3d28.609092569600364!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce2db961be393%3A0xf6c7ef5ee6dd10ae!2sIndia%20Gate%2C%20New%20Delhi%2C%20Delhi!5e0!3m2!1sen!2sin!4v1709475622637!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> */}
-              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28021.515400944896!2d77.21230520671162!3d28.609092569600364!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce2db961be393%3A0xf6c7ef5ee6dd10ae!2sIndia%20Gate%2C%20New%20Delhi%2C%20Delhi!5e0!3m2!1sen!2sin!4v1709475622637!5m2!1sen!2sin" frameborder="0" style={{border:"0 ", width: "100%" , height: "290px"}} allowfullscreen></iframe>
+              {/* <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d321200.7123692633!2d-114.417485241293!3d51.02759153831241!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x537170039f843fd5%3A0x266d3bb1b652b63a!2sCalgary%2C%20AB%2C%20Canada!5e0!3m2!1sen!2sin!4v1709898347527!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> */}
+              <iframe  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d321200.7123692633!2d-114.417485241293!3d51.02759153831241!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x537170039f843fd5%3A0x266d3bb1b652b63a!2sCalgary%2C%20AB%2C%20Canada!5e0!3m2!1sen!2sin!4v1709898347527!5m2!1sen!2sin"  frameborder="0" style={{border:"0 ", width: "100%" , height: "290px"}} allowfullscreen></iframe>
             </div>
 
           </div>
 
-          <div className="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
+          <div className="mt-5 col-lg-7 mt-lg-0 d-flex align-items-stretch">
             <form action="forms/contact.php" method="post" role="form" className="php-email-form">
               <div className="row">
                 <div className="form-group col-md-6">
