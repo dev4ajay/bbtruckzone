@@ -2,7 +2,7 @@ import React from 'react'
 import Headers from "../Headers/page"
 import Footer from "../Footer/page"
 import Client1 from "../../assets/cost-red.jpeg"
-import Image from "next/image"
+import Image from 'next/image'
 function page() {
   return (
     <>
@@ -10,12 +10,12 @@ function page() {
        <Headers/>
        <div>
         
-        <div  className="px-5   py-5 text-justify mt-5  mb-2">
+        <div  className="px-5 py-5 mt-5 mb-2 text-justify">
         <div className="py-2">
            
            <h3
          
-             className="font-bold text-2xl mt-5 "
+             className="mt-5 text-2xl font-bold "
            >
 Cost Reduction Data
            </h3>
@@ -29,17 +29,17 @@ Cost Reduction Data
           >
 By providing unique insights to make your maintenance operation more productive, we help you gain better control of your fleet. Measuring your miles between breakdowns and miles between repairs allows you to compare your company year over year against regions or locations to see if improvements are needed in specific areas such as equipment, processes or procedures.          </p>
          </div>
-             <Image src={Client1} className="img-fluid emergency-img mt-4 mb-2 bg-img-side"  alt=""/>
+             <Image src={Client1} className="mt-4 mb-2 img-fluid emergency-img bg-img-side"  alt=""/>
              </div>
         </div>
-        <div className="px-5 sm:px-5 md:px-5 lg:px-5 xl:px-20 text-justify mt-5 ">
+        <div className="px-5 mt-5 text-justify sm:px-5 md:px-5 lg:px-5 xl:px-20 ">
            <div>
          
  
              <div className="py-2">
                <h3
              
-                 className="font-bold text-2xl"
+                 className="text-2xl font-bold"
                >
 How Vehicle Maintenance Reporting Standard (VMRS) Coding Works
                </h3>
@@ -60,7 +60,7 @@ Any maintenance or repair work can be analyzed with the help of VMRS coding, whi
              <h3
              
              
-               className="font-bold text-2xl"
+               className="text-2xl font-bold"
              >
 VMRS Specialist Certification             </h3>
              <p
@@ -73,7 +73,7 @@ TMC offers a VMRS Specialist Certification program through which 25  BB Truck Zo
              <h3
              
              
-             className="font-bold text-2xl"
+             className="text-2xl font-bold"
            >
        
  
@@ -81,7 +81,7 @@ TMC offers a VMRS Specialist Certification program through which 25  BB Truck Zo
            <h3
              
              
-             className="font-bold text-2xl"
+             className="text-2xl font-bold"
            >
  Matched to the Right Roadside Emergency Provider
            </h3>
@@ -95,7 +95,7 @@ TMC offers a VMRS Specialist Certification program through which 25  BB Truck Zo
              <h3
              
             
-               className="font-bold text-2xl"
+               className="text-2xl font-bold"
              >
              Accurate Invoicing to Make Your Job Easier
              </h3>

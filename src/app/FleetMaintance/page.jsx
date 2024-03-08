@@ -1,7 +1,7 @@
 import React from "react";
 import Headers from "../Headers/page";
 import Footer from "../Footer/page";
-import Image from "next/image";
+import Image from 'next/image'
 import Client1 from "../../assets/mainentace.jpeg";
 function page() {
   return (
@@ -9,9 +9,9 @@ function page() {
       <div>
         <Headers />
         <div className="container">
-          <div className="container px-5   py-5 text-justify mt-5  mb-2">
+          <div className="container px-5 py-5 mt-5 mb-2 text-justify">
             <div className="py-2">
-              <h3 className="font-bold text-2xl mt-5 ">Fleet Maintenance</h3>
+              <h3 className="mt-5 text-2xl font-bold ">Fleet Maintenance</h3>
               <p>
                 BB Truck Zone® utilizes experienced and dedicated staff to
                 manage the fleet maintenance process so you can focus on your
@@ -24,13 +24,13 @@ function page() {
               </p>
               <Image
                 src={Client1}
-                className="img-fluid emergency-img mt-4 mb-2 bg-img-side"
+                className="mt-4 mb-2 img-fluid emergency-img bg-img-side"
                 alt=""
               />
             </div>
 
             <div className="container py-2">
-              <h3 className="font-bold text-2xl">Maintenance Process</h3>
+              <h3 className="text-2xl font-bold">Maintenance Process</h3>
               <p className="text-justify">
                 Our TMcare® program provides all elements of fleet equipment
                 maintenance from scheduling the work to paying the final
@@ -40,7 +40,7 @@ function page() {
               </p>
             </div>
             <div className="container py-2">
-            <h3 className="font-bold text-2xl">Mechanical</h3>
+            <h3 className="text-2xl font-bold">Mechanical</h3>
             <p className="text-justify">
               Your account representative will manage each maintenance event
               from start to finish. You’ll receive preventive maintenance forms,
@@ -52,7 +52,7 @@ function page() {
             </p>
           </div>
           <div className="container py-2">
-            <h3 className="font-bold text-2xl">Back office</h3>
+            <h3 className="text-2xl font-bold">Back office</h3>
 
             <p className="text-justify">
               BB Truck Zone fleet maintenance services are designed to drive
@@ -64,7 +64,7 @@ function page() {
             </p>
           </div>
           <div className="container py-2">
-            <h3 className="font-bold text-2xl">Personnel Productivity </h3>
+            <h3 className="text-2xl font-bold">Personnel Productivity </h3>
             <p className="text-justify">
               With BB Truck Zone providing dedicated maintenance staff, many
               customers have found they can operate with fewer resources at the
@@ -74,7 +74,7 @@ function page() {
           </div>
 
           <div className="container">
-            <h3 className="font-bold text-2xl">Decision making</h3>
+            <h3 className="text-2xl font-bold">Decision making</h3>
             <p className="text-justify">
               BB Truck Zone data provides an opportunity to make better
               decisions impacting the bottom line. For example, one national

@@ -1,6 +1,6 @@
 import React from "react";
 import ImgTruck from "../../assets/all-truck.jpg"
-import Image from "next/image";
+import Image from 'next/image'
 import Headers from "../Headers/page";
 import Footer from "../Footer/page";
 function About() {

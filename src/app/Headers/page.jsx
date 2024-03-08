@@ -1,6 +1,6 @@
 "use client"
 import React from "react";
-import Image from "next/image";
+import Image from 'next/image'
 import Container from 'react-bootstrap/Container';
 import Form from 'react-bootstrap/Form';
 import LogoImg from "../../assets/Group123.png" ;
@@ -16,20 +16,21 @@ function page() {
         
         <Navbar expand="lg"  id="header" className="fixed-top header-scrolled">
       <Container >
+        
         <span>
         <Navbar.Brand href="/#" className="main-color "  ><Image src={LogoImg}  href="/#" className="logo-name" alt="logo-image" /></Navbar.Brand>
         </span>
         <Navbar.Toggle  className="toggle-btn " />
         <Navbar.Collapse id="navbarScroll">
           <Nav
-            className="ms-auto my-2 my-lg-0"
+            className="my-2 ms-auto my-lg-0"
             // style={{ maxHeight: '100px' ,}}
             navbarScroll
           >
             <Nav.Link href="/#"  >Home</Nav.Link>
             <Nav.Link href="/About"  >About</Nav.Link>        
             <Dropdown>
-  <Dropdown.Toggle  id="dropdown-services" classname="services-dark text-dark px-4 py-5">
+  <Dropdown.Toggle  id="dropdown-services" classname="px-4 py-5 services-dark text-dark">
     Services
   </Dropdown.Toggle>
 
@@ -44,7 +45,7 @@ function page() {
     
          
             <Nav.Link href="/Contact"    >    Contact</Nav.Link>
-            <Nav.Link href="/"  className=" getstarted " >    Get Started</Nav.Link>
+            <Nav.Link href="/"  className=" getstarted" >    Get Started</Nav.Link>
 
           </Nav>
         

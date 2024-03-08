@@ -2,16 +2,16 @@ import React from "react";
 import Headers from "../Headers/page";
 import Footer from "../Footer/page";
 import Client1 from "../../assets/repair-1.jpg";
-import Image from "next/image";
+import Image from 'next/image'
 function page() {
   return (
     <>
       <div>
         <Headers />
         <div>
-          <div className="px-5   py-5 text-justify mt-5  mb-2">
+          <div className="px-5 py-5 mt-5 mb-2 text-justify">
             <div className="py-2">
-              <h3 className="font-bold text-2xl mt-5 ">
+              <h3 className="mt-5 text-2xl font-bold ">
                 Commercial Truck Tires
               </h3>
               <p>
@@ -27,13 +27,13 @@ function page() {
               </p>
               <Image
                 src={Client1}
-                className="img-fluid emergency-img mt-4 mb-2 bg-img-side repair-truck"
+                className="mt-4 mb-2 img-fluid emergency-img bg-img-side repair-truck"
                 alt=""
               />
             </div>
 
             <div className="py-2">
-              <h3 className="font-bold text-2xl">
+              <h3 className="text-2xl font-bold">
                 BB Truck Zone Tire Road Service
               </h3>
               <p className="text-justify">
@@ -53,7 +53,7 @@ function page() {
                 sure the service provider is meeting your needs — our goal is to
                 get you back on the road as quickly as possible.
               </p>
-              <p className="text-justify mt-2">
+              <p className="mt-2 text-justify">
                 <b>Access to commercial tires</b>. Because we aren’t tied to one
                 brand of tire, and our priority is to minimize downtime, we
                 provide options when your preferred brand of tire won’t get to
@@ -63,7 +63,7 @@ function page() {
                 place with major OEM providers. By using our accounts, we can
                 help manage your costs and provide valuable reporting.
               </p>
-              <p className="text-justify mt-2">
+              <p className="mt-2 text-justify">
                 {" "}
                 <b>Service beyond truck tires.</b> If you’re experiencing a
                 breakdown due to more than tire problems, we will send a service
@@ -75,7 +75,7 @@ function page() {
           </div>
 
           <div className="container py-2">
-            <h3 className="font-bold text-2xl">
+            <h3 className="text-2xl font-bold">
               Never Be Without a Tire Repair Shop{" "}
             </h3>
             <p className="text-justify">

@@ -2,7 +2,8 @@ import React from 'react'
 import Headers from "../Headers/page"
 import Footer from "../Footer/page"
 import Client1 from "../../assets/road-side.jpeg"
-import Image from "next/image"
+import Image from 'next/image'
+
 function page() {
   return (
     <>
@@ -10,12 +11,12 @@ function page() {
        <Headers/>
        <div>
         
-       <div  className="px-5   py-5 text-justify mt-5  mb-2">
+       <div  className="px-5 py-5 mt-5 mb-2 text-justify">
        <div className="py-2">
           
           <h3
         
-            className="font-bold text-2xl mt-5 "
+            className="mt-5 text-2xl font-bold "
           >
  Emergency Roadside Assistance
           </h3>
@@ -26,17 +27,17 @@ function page() {
           </p>
      
         </div>
-            <Image src={Client1} className="img-fluid emergency-img mt-4 mb-2 bg-img-side"  alt=""/>
+            <Image src={Client1} className="mt-4 mb-2 img-fluid emergency-img bg-img-side"  alt=""/>
             </div>
        </div>
-       <div className="px-5 sm:px-5 md:px-5 lg:px-5 xl:px-20 text-justify mt-5 ">
+       <div className="px-5 mt-5 text-justify sm:px-5 md:px-5 lg:px-5 xl:px-20 ">
           <div>
         
 
             <div className="py-2">
               <h3
             
-                className="font-bold text-2xl"
+                className="text-2xl font-bold"
               >
              Your Roadside Emergency is Important to Us
               </h3>
@@ -55,13 +56,13 @@ function page() {
               </p>
               <p
              
-                className="text-justify mt-2"
+                className="mt-2 text-justify"
               >
               When you call, an experienced mechanic reviews the details of the event, assesses the situation and dispatches the appropriate service provider to the breakdown location.
               </p>
               <li
              
-                className="text-justify mt-2"
+                className="mt-2 text-justify"
               >
            You get real-time updates every step of the way. Stay informed of your roadside emergency status with instant updates via text messages, emails and secure web logins.
               </li>
@@ -73,7 +74,7 @@ function page() {
             <li
             
             
-              className="text-justify mt-2"
+              className="mt-2 text-justify"
             >
               Information provided to us through our service, interaction with
               our customer service, participation in surveys or marketing
@@ -85,7 +86,7 @@ function page() {
             <h3
             
             
-              className="font-bold text-2xl"
+              className="text-2xl font-bold"
             >
           Shorter Hold Times Mean Less Time on the Side of the Road
             </h3>
@@ -100,7 +101,7 @@ function page() {
             <h3
             
             
-            className="font-bold text-2xl"
+            className="text-2xl font-bold"
           >
       
 
@@ -108,7 +109,7 @@ function page() {
           <h3
             
             
-            className="font-bold text-2xl"
+            className="text-2xl font-bold"
           >
 Matched to the Right Roadside Emergency Provider
           </h3>
@@ -122,7 +123,7 @@ Matched to the Right Roadside Emergency Provider
             <h3
             
            
-              className="font-bold text-2xl"
+              className="text-2xl font-bold"
             >
             Accurate Invoicing to Make Your Job Easier
             </h3>
